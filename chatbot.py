@@ -77,6 +77,7 @@ def hello_command(update: Update, context: CallbackContext) -> None:
     except (IndexError, ValueError):
         update.message.reply_text('Usage: /hello <keyword>')
 
+a = 1
 
 if __name__ == '__main__':
     main()
