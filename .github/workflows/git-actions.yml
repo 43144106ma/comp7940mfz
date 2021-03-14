@@ -8,7 +8,7 @@ env:
   DEP_PATH: requirements.txt
 
 jobs:  								# gather all the jobs that run in the workflow
-  my-helloworld-job:
+  my-safetyCheck-job:
     runs-on: ubuntu-latest   		# Set the type of machine to run on
     steps:
       - uses: actions/checkout@v2   # Step 1: Checks out a copy of your repository on the ubuntu-latest machine
