@@ -10,7 +10,7 @@ global redis1
 
 def main():
     # Load your token and create an Updater for your Bot
-
+    a = 1
     config = configparser.ConfigParser()
     config.read('config.ini')
     updater = Updater(
